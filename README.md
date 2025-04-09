@@ -1,4 +1,4 @@
-# @yourusername/shuffle-array (Class 2 Example)
+# @swipswup/password-utilities (Class 2 Example)
 
 > A small library that takes an array as input and returns a new array that is shuffled.
 
@@ -16,12 +16,12 @@
 Install via npm:
 
 ```bash
-npm install @yourusername/shuffle-array
+npm install @swipswup/shuffle-array
 ```
 Install via yarn:
 
 ```bash
-yarn add @yourusername/shuffle-array
+yarn add @swipswup/password-utilities
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ yarn add @yourusername/shuffle-array
 Basic Usage
 
 ```js
-import shuffleArray from '@yourusername/shuffle-array';
+import shuffleArray from '@swipswup/password-utilities';
 
 const startArray = [1, 2, 3, 4, 5];
 const newShuffledArray = shuffleArray(startArray);
@@ -43,7 +43,7 @@ console.log(newShuffledArray); // e.g., [3, 1, 5, 2, 4]
 Shuffle a list of user IDs:
 
 ```js
-import shuffleArray from '@yourusername/shuffle-array';
+import shuffleArray from '@swipswup/password-utilities';
 
 const userIds = ['u1', 'u2', 'u3', 'u4'];
 const randomizedOrderOfUserIds = shuffleArray(userIds);
@@ -54,7 +54,7 @@ console.log(randomizedOrderOfUserIds); // e.g., ['u1', 'u3', 'u4', 'u2']
 Use in a game for randomizing cards:
 
 ```js
-import shuffleArray from '@yourusername/shuffle-array';
+import shuffleArray from '@swipswup/password-utilities';
 
 const deck = ['Ace of Spades', 'Two of Hearts']; // some card deck
 const shuffledDeck = shuffleArray(deck);
