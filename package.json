@@ -1,7 +1,7 @@
 {
   "name": "@swipswup/password-utilities",
-  "version": "0.1.0",
-  "description": "A small library that takes an array as input and returns a new array that is shuffled.",
+  "version": "1.0.0",
+  "description": "A simple JavaScript library for generating and validating strong passwords.",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
   "module": "dist/index.m.js",
@@ -13,14 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SwipSwup/CONTI-Ex3.git"
+    "url": "https://github.com/SwipSwup/CONTI-Ex3.git"
   },
   "keywords": [
-    "array",
-    "shuffle",
-    "functional"
+    "password",
+    "security",
+    "utilities",
+    "validation",
+    "generator",
+    "javascript",
+    "strong-password"
   ],
-  "author": "your name <your-email@email.com> (https://yourwebsite.com)",
+  "author": "SwipSwup <SwipSwup@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/SwipSwup/CONTI-Ex3/issues"
