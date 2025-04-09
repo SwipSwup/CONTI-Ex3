@@ -14,7 +14,7 @@ We only provide official security updates for the current major release (e.g., `
 We take security issues seriously and appreciate your efforts to responsibly disclose them. If you believe you have found a security vulnerability in this project, please follow these steps:
 
 1. **Contact the Team**
-   Send an email to **[security@yourdomain.com](mailto:security@yourdomain.com)** with a clear description of the issue, the steps to reproduce it, and any potential impact it may have.
+   Send an email to **[SwipSwup@gmail.com](mailto:SwipSwup@gmail.com)** with a clear description of the issue, the steps to reproduce it, and any potential impact it may have.
 
 2. **Do Not Disclose Publicly**
    Please do not file a public issue for a vulnerability, as it may put other users at risk. We ask that you keep any discovered vulnerabilities confidential until we have a fix in place.
@@ -24,11 +24,6 @@ We take security issues seriously and appreciate your efforts to responsibly dis
 
 4. **Fix & Disclosure**
    After we address the issue, we will release a fix as soon as possible. We will also publish a short advisory and acknowledge your contribution once the patch is made public.
-
-## Scope
-
-- Our project does not handle sensitive data like passwords or personal user information beyond normal usage.
-- Please note that this library uses non-cryptographic randomness (e.g., `Math.random()`) and therefore is **not** intended for security-critical tasks.
 
 ## Resources
 
