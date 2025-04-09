@@ -1,6 +1,6 @@
 # @swipswup/password-utilities (Class 2 Example)
 
-> A small library that creates a strong password and checks if a given password is strong.
+> A small library that creates a strong password and checks if a given password is strong. The library has a check if the strong password is actually strong.
 
 ## Table of Contents
 
