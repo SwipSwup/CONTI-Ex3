@@ -1,6 +1,6 @@
 {
   "name": "@swipswup/password-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple JavaScript library for generating and validating strong passwords.",
   "main": "dist/index.js",
   "umd:main": "dist/index.umd.js",
