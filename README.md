@@ -1,6 +1,6 @@
 # @swipswup/password-utilities (Class 2 Example)
 
-> A small library that takes an array as input and returns a new array that is shuffled.
+> A small library that creates a strong password and checks if a given password is strong.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@
 Install via npm:
 
 ```bash
-npm install @swipswup/shuffle-array
+npm install @swipswup/password-utilities
 ```
 Install via yarn:
 
@@ -26,40 +26,14 @@ yarn add @swipswup/password-utilities
 
 ## Usage
 
-Basic Usage
-
 ```js
-import shuffleArray from '@swipswup/password-utilities';
+import passwordUtilities from '@swipswup/password-utilities';
 
-const startArray = [1, 2, 3, 4, 5];
-const newShuffledArray = shuffleArray(startArray);
+const strongPassword = generateStrongPassword();
+console.log(isStrongPassword(strongPassword));
 
-console.log(startArray);       // e.g., [1, 2, 3, 4, 5]
-console.log(newShuffledArray); // e.g., [3, 1, 5, 2, 4]
-```
-
-### Examples
-
-Shuffle a list of user IDs:
-
-```js
-import shuffleArray from '@swipswup/password-utilities';
-
-const userIds = ['u1', 'u2', 'u3', 'u4'];
-const randomizedOrderOfUserIds = shuffleArray(userIds);
-
-console.log(randomizedOrderOfUserIds); // e.g., ['u1', 'u3', 'u4', 'u2']
-```
-
-Use in a game for randomizing cards:
-
-```js
-import shuffleArray from '@swipswup/password-utilities';
-
-const deck = ['Ace of Spades', 'Two of Hearts']; // some card deck
-const shuffledDeck = shuffleArray(deck);
-
-console.log(shuffledDeck); // e.g., ['Two of Hearts', 'Ace of Spades', ...]
+// Create a strong password with a given length
+const strongPasswordWith20Chars = generateStrongPassword(20);
 ```
 
 ## Contribution
@@ -70,8 +44,10 @@ Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for m
 
 Please refer to our [SECURITY.md](./SECURITY.md) for information about our security policies, how to report vulnerabilities, and our approach to handling security concerns.
 
-**Important Note**: This library uses non-cryptographic randomness (`Math.random()`). Do not rely on it for security-critical functionality.
+## 
 
 ## License
 
 This project is licensed under the [MIT License](./LICENSE.md).
+
+
