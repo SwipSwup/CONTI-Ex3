@@ -6,8 +6,10 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
-   - [Examples](#examples)
 - [Contribution](#contribution)
+- [Pull Request](#pull-request)
+- [Issue](#issue)
+- [Feature Request](#feature-request)
 - [Security](#security)
 - [License](#license)
 
@@ -40,11 +42,18 @@ const strongPasswordWith20Chars = generateStrongPassword(20);
 
 Contributions are welcome! Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 
+## Pull Request
+Please refer to our [PULL_REQUEST_TEMPLATE.md](./PULL_REQUEST_TEMPLATE.md)
+
+## Issue
+For an issue please refer to [ISSUE_TEMPLATE.md](./ISSUE_TEMPLATE.md)
+
+## Feature Request
+Please refer to our [FEATURE_REQUEST_TEMPLATE.md](./FEATURE_REQUEST_TEMPLATE.md)].
+
 ## Security
 
 Please refer to our [SECURITY.md](./SECURITY.md) for information about our security policies, how to report vulnerabilities, and our approach to handling security concerns.
-
-## 
 
 ## License
 
