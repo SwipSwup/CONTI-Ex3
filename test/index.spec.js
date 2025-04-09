@@ -1,19 +1,18 @@
-const shuffleArray = require('../dist/index');
+const { generateStrongPassword, isStrongPassword } = require('../src/index');
 
-describe('shuffleArray', () => {
-  test('returns a new array with the same elements as the input', () => {
-    const originalArray = [1, 2, 3, 4, 5];
-    const shuffledArray = shuffleArray(originalArray);
+test('isStrongPassword correctly identifies a strong password', () => {
+  expect(isStrongPassword('pC%mD8TpCKn2')).toBe(true);
+});
 
-    // Check that a new array is returned (not the same reference)
-    expect(shuffledArray).not.toBe(originalArray);
+test('isStrongPassword correctly identifies a weak password', () => {
+  expect(isStrongPassword('Hello World')).toBe(false);
+});
 
-    // Check that the array lengths are identical
-    expect(shuffledArray.length).toBe(originalArray.length);
+test('generateStrongPassword always returns a strong password', () => {
+  for (let i = 0; i < 10; i++) {
+    const password = generateStrongPassword(12);
 
-    // Check that both arrays contain the same elements, regardless of order
-    const sortedOriginal = [...originalArray].sort((a, b) => a - b);
-    const sortedShuffled = [...shuffledArray].sort((a, b) => a - b);
-    expect(sortedShuffled).toEqual(sortedOriginal);
-  });
+    
+    expect(isStrongPassword(password)).toBe(true);
+  }
 });

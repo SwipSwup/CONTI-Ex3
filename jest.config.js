@@ -4,7 +4,7 @@ module.exports = {
   moduleFileExtensions: ['js', 'json'], // recognize .js and .json files
   testMatch: ['**/?(*.)+(spec).js'], // run files ending with .spec.js
   // Uncomment the transform section if you're using ES6+ features that need Babel
-  // transform: {
-  //   '^.+\\.jsx?$': 'babel-jest'
-  // },
+   transform: {
+     '^.+\\.jsx?$': 'babel-jest'
+   },
 };
